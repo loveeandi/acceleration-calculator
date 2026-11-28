@@ -21,6 +21,6 @@ calculate:
 	divss xmm1, xmm2
 	
 	; convert acceleration to int (truncate)
-	cvttss2si eax, xmm1
+	cvttss2si rax, xmm1
 
 	ret
